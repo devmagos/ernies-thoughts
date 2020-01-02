@@ -1,0 +1,189 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-field {
+  background-color: blueviolet;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-field2 {
+  background-color: gray;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+    .btn-flat {
+      background-color: purple;
+      color: white;
+    }
+
+    .btn-xxl {
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .clock {
+      font-size: 7rem;
+    }
+
+    .App-signin {
+      background-color: whitesmoke;
+      padding: 20px;
+      justify-content: center;
+      text-align: center;
+      width: 450px;
+      height: 400px;
+      color: #000000;
+    }
+    .App-signup {
+      margin-top: 10px;
+      background-color: whitesmoke;
+      padding: 20px;
+      justify-content: center;
+      text-align: center;
+      width: 450px;
+      height: 470px;
+      color: #000000;
+      font-size: 20px;
+      
+    }
+.background {
+  padding: 280px 0;
+  text-align: center;
+}
+
+    .btnSignOut {
+      width: 100px;
+      height: 50px;
+      border-radius: 10px;
+      color: red;
+    }
+
+    .btnSignOutSpan {
+      color: teal;
+    }    
+
+    .btnSignSpan h4 {
+      color: grey;
+    }
+
+    #topic {
+      color: #000000;
+    }
+    #heading {
+      color: #000000;
+    }
+    
+   #checkbox{
+     text-align: left;
+   }
+
+  .nav{
+    margin-bottom: 8px;  
+  }
+  .nav ul{
+    display:flex;
+    list-style: none;    
+  }
+  
+  .blog h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 24px;
+    color: teal;
+  }
+  
+  .blogpost{
+    background-color: #fff;
+    max-width: 700px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+  
+  .blogpost h5{
+    font-size: 14px;
+    color: gray;
+    font-weight: 100;
+  }
+  
+  .blogpost h2{
+    font-size: 18px;
+    color: powderblue;
+    font-weight: 100;
+  }
+
+  .blogpost h3{
+    font-size: 20px;
+    color: darkslategrey;
+    font-weight: 100;
+  }
+
+  .blogpost p{
+    font-size: 18px;
+    color: teal;
+    font-weight: 80px;
+  }
+  
+  .layout{
+    padding-top: 20px
+  }
+
+  .leftCheck {
+    text-align: left !important;
+  }  
+
+  .long {
+    width: 45%;
+  }
+
+  .publishPost {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
