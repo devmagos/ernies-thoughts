@@ -24,9 +24,9 @@ class PublishPost extends Component {
     
     handleSubmit = async event => {
         event.preventDefault();
-        axios.post("http://localhost:8080/publishpost", this.state)
+        axios.post("https://ernies-thoughts-b.herokuapp.com/publishpost", this.state)
             .then(response => {
-                axios.get('http://localhost:8080/getposts')
+                axios.get('https://ernies-thoughts-b.herokuapp.com/getposts')
             .then(res => this.setState({
                 value: res.data.data
             }))
