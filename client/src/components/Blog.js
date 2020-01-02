@@ -14,7 +14,7 @@ class Blog extends React.Component {
   
 
     componentDidMount() {
-       axios.get('https://ernies-thoughts-b.herokuapp.com')        
+       axios.get('https://ernies-thoughts-b.herokuapp.com/getposts')        
          .then(res => this.setState({blogpost: res.data.posts}))
          .catch(error => {
             console.log(error)
